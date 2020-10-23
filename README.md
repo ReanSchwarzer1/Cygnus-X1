@@ -1,1 +1,1 @@
-# Cygnus-X1
+# Cygnus X1
