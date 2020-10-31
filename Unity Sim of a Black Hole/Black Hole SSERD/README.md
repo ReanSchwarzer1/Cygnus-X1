@@ -10,12 +10,11 @@ The shader also condsidered the gravity redshift effect which is in theory cause
 ## Parameters
 | parameter | description |
 | --- | --- |
-| Quad Scale | If the black hole goes out of the drawing, please enlarge this. |
 | Speed Of Light | Speed Of Light (m / s). The default value is 1. |
 | Schwarzschild Radius | If this value is changed significantly, fine tuning of other parameters may be necessary. |
 | N Steps | Number of steps in solving differential equation. Increasing this value makes the black hole visible from far away. |
 | Step Size | Step size in solving differential equation. Reducing this value improves accuracy but slows down the calculation. |
-| Escape Velocity | When the speed of light exceeds this speed, light is considered to have escaped from the gravity of the black hole. This is the ratio to the speed of light. |
+| Escape Velocity | When the speed of light exceeds this speed, light is considered to have escaped from the gravity of the black hole. This is the ratio to the speed of light. 
 | Max Winding Of Light | Maximum winding number of light around the black hole. When this is exceeded, the calculation will be stopped. |
 | Ring Radius | Outer radius of accretion disc. |
 | Redshift Texture | Lookup texture to represent gravity redshift. |
@@ -23,8 +22,6 @@ The shader also condsidered the gravity redshift effect which is in theory cause
 | N Divisions Of phi | Number of divisions of disk noise in the phi direction. |
 | sigma | Variance of Gaussian blur. |
 | Step Width | Sampling step width of Gaussian blur. |
-| Threshold | Threshold of bloom. |
-| Suppression | Suppression of bloom. |
 
 ## Redshift Texture
 Redshift texture is a lookup texture for gravitational redshift.
