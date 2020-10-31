@@ -4,6 +4,9 @@ This is a black hole shader for Unity. Because it is performed by ray tracing, i
 The shader also condsidered the gravity redshift effect which is in theory caused by the differences of gravitational force between the observer and the light source.
 
 <p align="center">
+  <img width="800px" src="https://github.com/ReanSchwarzer1/Cygnus-X1/blob/main/Week%203/31-10-2020/31-10-2020/Annotation%202020-10-31%20124052.jpg">
+</p>
+<p align="center">
   <img width="800px" src="https://github.com/ReanSchwarzer1/Cygnus-X1/blob/main/Unity%20Sim%20of%20a%20Black%20Hole/Black%20Hole%20SSERD/BBH.PNG">
 </p>
 
