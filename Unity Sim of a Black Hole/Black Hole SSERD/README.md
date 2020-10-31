@@ -30,7 +30,7 @@ The shader also condsidered the gravity redshift effect which is in theory cause
 Redshift texture is a lookup texture for gravitational redshift.
 The horizontal axis is 3a / R, and the vertical axis is a / r0.
 Where R, r0 are the position (radius) of the light source and the position (radius) of the observer.
-If you want to generate this texture, you can use the python notebook `Notebooks/Redshift.ipynb`.
+To generate this texture, use the python notebook.
 Please install the following python packages, set the parameters, and run the notebook.
 
 Used values of Cygnus X1 to generate the redshift texture.
@@ -42,6 +42,7 @@ Used values of Cygnus X1 to generate the redshift texture.
 * Scipy
 * Matplotlib
 * Pillow
+To run the notebook and generate the textures.
 
 ### Color Matching Functions
 Downloaded data of 2-deg XYZ CMFs [here](http://cvrl.ucl.ac.uk/cmfs.htm). Selected 0.1mm as step size and csv as format.
@@ -56,8 +57,6 @@ Downloaded data of 2-deg XYZ CMFs [here](http://cvrl.ucl.ac.uk/cmfs.htm). Select
 
 Thanks to conjLob for providing the shader code.
 
-## License
-MIT License. See the [LICENSE](./LICENSE) file.
 
 
 
@@ -67,12 +66,3 @@ MIT License. See the [LICENSE](./LICENSE) file.
 
 
 
-
-
-
-
-
-
-
-
-<img src = "">
